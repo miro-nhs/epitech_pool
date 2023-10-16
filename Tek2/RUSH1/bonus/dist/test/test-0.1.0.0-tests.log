@@ -1,0 +1,25 @@
+Test suite tests: RUNNING...
+
+ps 2 1 3 6 5 8 and sa pb pb pb sa pa pa pb to "KO"  [✔]
+ps 2 1 3 6 5 8 and sa pb pb pb sa pa pa pa to "OK"  [✔]
+ps 2 1 3 6 5 8 and pb pb ra sa rrr pa pa to "OK"  [✔]
+ps 2 1 3 6 5 8 and pb pb ra sa rrr pa pa to "OK"  [✔]
+ps y d x s a s d d to Error"KO"  [✔]
+ps -2 -1 -23 112 "OK"  [✘]
+ps liste_vide "OK"  [✔]
+
+Failures:
+
+  test/tasty.hs:131:5: 
+  1) ps -2 -1 -23 112 "OK" 
+       expected: "OK"
+        but got: "84"
+
+  To rerun use: --match "/ps -2 -1 -23 112 \"OK\" /"
+
+Randomized with seed 876774609
+
+Finished in 0.0006 seconds
+7 examples, 1 failure
+Test suite tests: FAIL
+Test suite logged to: dist/test/test-0.1.0.0-tests.log
