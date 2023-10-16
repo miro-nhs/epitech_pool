@@ -1,3 +1,5 @@
 # epitech_pool
 all pool of epitech
-grade a medaille
+cpool : grade a medaille
+cpp pool : grabe b
+react pool : grade a (incoming)
